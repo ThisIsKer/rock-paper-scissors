@@ -26,13 +26,15 @@ I've also resorted to using Maven as a project management framework.
 
 
 ## How to run?
-Running this project is pretty simple: just navigate to the previously mentioned "java" folder, open a terminal window and type the command
+Running this project is pretty simple: just open it as a Maven project inside your IDE (like IntelliJ) and run the "main" method inside the "Game Runner" file.
+
+Or, if you're a stud, just navigate to the previously mentioned "java" folder, open a terminal window and type the command
 
 
 ```bash
 javac GameRunner.java
 ```
-This will compile the .java files and produce the .class files necessary for the next step:
+to compile the .java files and produce the .class files necessary for the next step, which is:
 
 ```bash
 java GameRunner
