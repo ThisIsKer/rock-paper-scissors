@@ -12,6 +12,19 @@ The "entities" package contains the three possible moves a player can make, code
 
 Finally, the test directory contains the unit tests related to the correct functioning of the win-lose logics contained in the "Rock", "Paper" and "Scissors" classes.
 
+## External libraries
+
+The only libraries that I've indulged in are:
+
+- **corretto-1.8**: the JDK I'm using
+
+- **junit:4.13.1**: needed to run the JUnit tests
+
+- **hamcrest-core:1.3**: needed in order to write assertions
+
+I've also resorted to using Maven as a project management framework.
+
+
 ## How to run?
 Running this project is pretty simple: just navigate to the previously mentioned "java" folder, open a terminal window and type the command
 
